@@ -1,0 +1,102 @@
+html{
+    background-image: url('img/background/weatherapp.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+
+.appbox{
+    display: block; /* Always set a display box */
+    background-color: white;
+    width: auto;
+    align-self: center;
+    box-shadow: 0px 0px 15px 2px black;
+    border: 2px black;
+    border-radius: 15px;
+    margin: 5% 25% 0% 25%;
+    position: relative;
+    font-family: sans-serif;
+    padding: 2% 0px 2% 0px;
+}
+
+.title{
+    width: 100%; 
+    height: auto;
+    display: flex; /* display decides how the content is laid out inside */
+    flex-direction: column; /* sets the direction of boxes inside the section */
+    align-items: center; /* aligns vertically */
+    justify-content: center; /* aligns horizontally inside the section display box */
+    color: #333;
+    font-size: 2em;
+}
+
+.weather-details{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+#search{
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: 20px;
+    border-radius: 5px;
+    border: solid 2px #333;
+}
+
+.location-icon{
+    display: block;
+    margin-top: 20px;
+    border: solid 2px #333;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 40px;
+}
+
+.notification{
+    display: none;
+    background-color: white;
+    color: maroon;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
+}
+
+.weather-icon img{
+    width: 200px;
+    margin-top: 30px;
+}
+
+.temp{
+    width: 100%;
+    height: 30px;
+    font-size: 3em;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.weather{
+    width: 100%;
+    height: 30px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.location{
+    width: 100%;
+    height: 30px;
+    font-size: 0.8em;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
